@@ -34,7 +34,7 @@ public class buttonInteract : MonoBehaviour
 
         button = transform.position;
         animateButton();
-        
+
     }
 
     public void animateButton()
@@ -82,7 +82,7 @@ public class buttonInteract : MonoBehaviour
         {
             pressed = true;
             GameEvents.current.ButtonActivate(id);
-        }        
+        }
     }
-   
+
 }
